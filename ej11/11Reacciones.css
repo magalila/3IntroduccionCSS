@@ -1,0 +1,17 @@
+h2{
+    font-size: 60px;
+}
+p{
+    font-family: 'Dosis', sans-serif;
+}
+a{
+    color: #576CBC;
+    font-size: 25px;
+    font-family: 'Bitter', serif;
+    text-decoration: none;
+    
+}
+span{
+    color: #738290;
+    margin-right: 10px;
+}

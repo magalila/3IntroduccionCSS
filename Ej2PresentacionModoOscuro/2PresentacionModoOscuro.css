@@ -1,0 +1,24 @@
+.miBody{
+    background-color: #212121;
+}
+.tituloPrincipal{
+    font-size: 120px;
+    font-family: 'Lobster', cursive;
+    font-weight: 800px;
+    color: #9A208C;
+}
+.parrafo1{
+    font-size: 48px;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 600px;
+    color: #FAFAFA;
+}
+.lectora{
+    color:#E11299;
+}
+.programadora{
+    color: #2F58CD;
+}
+.musica{
+    color: #159895;
+}

@@ -1,0 +1,49 @@
+h2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+}
+.moderna1{
+    background-color: #EA047E;
+}
+.moderna2{
+    background-color: #FF6D28;
+}
+.moderna3{
+    background-color: #FCE700;
+}
+.moderna4{
+    background-color: #00F5FF;
+}
+.moderna5{
+    background-color: #5F9DF7;
+}
+.neon1{
+    background-color:rgb(88, 0, 255) ;
+}
+.neon2{
+    background-color: rgb(0, 150, 255);
+}
+.neon3{
+    background-color: rgb(0, 215, 255);
+}
+.neon4{
+    background-color: rgb(114, 255, 255);
+}
+.neon5{
+    background-color:rgb(0, 255, 209) ;
+}
+.summer1{
+    background-color: hsl(132, 68%, 45%);
+}
+.summer2{
+    background-color:hsl(74, 78%, 62%);
+}
+.summer3{
+    background-color: hsl(32, 88%, 48%);
+}
+.summer4{
+    background-color: hsl(297, 84%, 44%);
+}
+.summer5{
+    background-color: hsl(315, 94%, 48%);
+}

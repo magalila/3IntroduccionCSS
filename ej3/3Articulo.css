@@ -1,0 +1,39 @@
+.tituloPrincipal {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 80px;
+}
+
+.parrafo1 {
+    color: #7B8FA1;
+}
+
+.adalovelace {
+    color: #5BC0F8;
+    text-decoration: none;
+}
+
+div {
+    /*en este caso puedo llamar a la etiqueta div, porque es la unica que tengo, sino, es mejor usar class */
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.parrafo2 {
+    font-style: italic;
+}
+
+.parrafo3 {
+    font-weight: bold;
+}
+
+.parrafo4 {
+    font-style: italic;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.palabrasNegrita {
+    font-weight: bold;
+}
+
+.palabrasItalic {
+    font-style: italic;
+}

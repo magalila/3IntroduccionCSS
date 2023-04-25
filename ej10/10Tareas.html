@@ -1,0 +1,74 @@
+<!--10 - Tareas
+index.html debe tener:
+
+un título h1 que diga: Mis tareas.
+
+un título h2 que diga: Tareas para hoy.
+
+agregar 6 tareas, que deben tener:
+
+un título h3 con la tarea a realizar (por ejemplo Hacer las compras).
+un elemento en línea span con el estado de la tarea: Pendiente, Haciendo, Hecha, Cancelada.
+Ejemplo:
+
+Mis tareas
+Tareas para hoy
+
+Ir al banco
+Cancelada
+
+Preparar parcial
+Haciendo
+
+Pasear al perro
+Hecha
+Poner un tipografía distinta a la default.
+Dar a los títulos un tamaño de fuente distinto al default.
+Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
+Poner a cada estado un color de fondo distinto, siguiendo el siguiente criterio:
+Pendiente: Azul
+Haciendo: Naranja
+Hecha: Verde
+Cancelada: Rojo-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 - Tareas</title>
+    <link rel="stylesheet" href="10Tareas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carlito&family=Dosis:wght@300&family=Sigmar&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>MIS TAREAS</h1>
+    <section>
+        <h2>Tareas para hoy:</h2>
+        <article>
+            <p>Compras en el supermercado <span class="pendiente">Pendiente</span></p>
+        </article>
+        <article>
+            <p>Ir a crossfit <span class="hecha">Hecha</span></p>
+        </article>
+        <article>
+            <p>Estudiar <span class="haciendo">Haciendo</span></p>
+        </article>
+        <article>
+            <p>Sacar a pasear a las perris <span class="hecha">Hecha</span></p>
+        </article>
+        <article>
+            <p>Ir a un seminario <span class="cancelada">Cancelada</span></p>
+        </article>
+        <article>
+            <p>Visitar abuelos <span class="pendiente">Pendiente</span></p>
+        </article>
+    </section>
+</body>
+
+</html>

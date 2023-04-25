@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Sigmar', cursive;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Carlito', sans-serif;
+}
+p{
+    font-family: 'Dosis', sans-serif;
+}
+.hecha{
+    color: #80ed99;
+}
+.haciendo{
+    color: #FB5607;
+}
+.cancelada{
+    color: #c9184a;
+}
+.pendiente{
+    color:#4361EE;
+}

@@ -1,0 +1,77 @@
+<!--09 - Cuenta Bancaria
+index.html debe tener:
+
+un título h1 que diga: Mi cuenta.
+
+un título h2 que diga: Últimos movimientos.
+
+agregar 5 movimientos, que deben tener:
+
+un título h3 con el nombre de la operación (por ejemplo Depósito, Transferencia, Pago a XXX, etc.
+un elemento p con la fecha de la operación.
+un elemento p con el monto de la operación, con un signo más (+) adelante si ingresó dinero o un signo menos (-) si salió dinero de la cuenta.
+Ejemplo:
+
+Mi cuenta
+Últimos movimientos
+
+Transferencia a Grace
+01/05/2020
+- $1000
+
+
+Cobro de sueldo
+01/05/2020
++ $30000
+Poner un tipografía distinta a la default.
+Dar a los títulos un tamaño de fuente distinto al default.
+Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
+Si el monto es un ingreso, debe tener un color verde, si es una salida, debe tener un color verde.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 - Cuenta Bancaria</title>
+    <link rel="stylesheet" href="9CuentaBancaria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>MI CUENTA:</h1>
+    <section>
+        <h2>Ultimos movimientos</h2>
+        <article>
+            <h3>Deposito</h3>
+            <p class="fecha">03/03/2023</p>
+            <p class="negativo">- $20000</p>
+        </article>
+        <article>
+            <h3>Transferencia</h3>
+            <p class="fecha">25/02/2023</p>
+            <p class="negativo">- $4000</p>
+        </article>
+        <article>
+            <h3>Pago a XXX</h3>
+            <p class="fecha">05/04/2023</p>
+            <p class="negativo">- $30000</p>
+        </article>
+        <article>
+            <h3>Transferencia recibida</h3>
+            <p class="fecha">15/04/2023</p>
+            <p class="positivo">+ $25000</p>
+        </article>
+        <article>
+            <h3>Cobro de sueldo</h3>
+            <p class="fecha">31/03/2023</p>
+            <p class="positivo">+ $200000</p>
+        </article>
+    </section>
+</body>
+
+</html>
